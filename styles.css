@@ -1,6 +1,9 @@
 .grid {
   display: flex;
-  flex-wrap: wrap;
-  height: 300px;
-  width: 400px;
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+  height: 550px;
+  width: 734px;
 }
